@@ -3,8 +3,48 @@
 	box-sizing: border-box;
 }
 
-h1 {
-	font-size: 300px;
-	text-align: center;
-	color: fuchsia;
+
+
+#headingContainer {
+
+    text-align: center;
+    h1 {
+        font-size: 96px;
+        color: navy;
+        margin-bottom: 1%;
+    }
+    p {
+        font-size: 24px;
+
+    }
+}
+
+#guestsViewContainer {
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+
+    .tabsContainer {
+        a {
+            text-decoration: none;
+            padding: 2% 4%;
+            margin: 2% 2% 0 2%;
+            color: navy;
+            background: #66b3ff;
+            border: 5px solid #555;
+            display: inline-block;
+        }
+    }
+    .yearContainer {
+        a {
+            text-decoration: none;
+            padding: 2% 4%;
+            margin: 5% 2% 0 2%;
+            color: navy;
+            background: #66b3ff;
+            border: 5px solid #555;
+            display: inline-block;
+            font-size: 48px;
+        }
+    }
 }

@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 const theRoot = __dirname + '/dist/',
-	PORT = process.env.PORT || 3000 
+	PORT = process.env.PORT || 3000
 
 // got env port for heroku or elsewhere, else set to 3000 for dev
 app.set('port', PORT)
